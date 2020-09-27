@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/avish-kumar1/api#readme",
   "dependencies": {
-    "date-fns": "^2.13.0",
+    "date-fns": "^2.16.1",
     "drive-db": "^6.0.1",
     "immer": "^6.0.5",
     "moment": "^2.24.0",
