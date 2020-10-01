@@ -10,6 +10,7 @@ Detailed documentation regarding the API end-points [can be found here](document
 
 ### JSON Endpoints
 
+
 | Status        | Data                                                                         | URL                                                     |
 | ------------- | ---------------------------------------------------------------------------- | ------------------------------------------------------- |
 | :green_heart: | Patient Level : Raw Data Partition 1 (Till Apr 19)                           | <https://avish-kumar1.github.io/api/raw_data1.json>           |
@@ -47,18 +48,5 @@ Sometimes, having files in a spreadsheet format is more useful for analysts and 
 
 > :rocket: Quick example : Apply the formula `=IMPORTDATA("https://avish-kumar1.github.io/api/csv/latest/state_wise.csv")` in A1 cell of a Google Sheets to get the state data for analysis :)
 
-## How this works
-
-- Data in this repository is generated from Google Sheets
-- Volunteers collect data from trusted sources and update the sheet
-- Github Actions periodically fetch the data from the sheet and upload static json and csv files into `gh-pages` branch of this repo
-- `gh-pages` serves the json/csv files at <https://avish-kumar1.github.io/api>
-
-## License
-
-This repository contains both the code that routinely fetches the data from Google Sheet and convert it into JSON files in the required format and the data itself (in the gh-pages branch). So, the content of this repository is licensed in two ways : Code and Data
-
-License for Code (Consider this as everything in the `master` branch) : MIT License (Detailed in LICENSE_CODE.txt)  
-License for Data (Consider this as everything in the `gh-pages` branch) : CC-BY-SA-4.0 License (Detailed in LICENSE_DATA.txt)
 
 ............................................
