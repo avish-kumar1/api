@@ -28,7 +28,7 @@
     "drive-db": "^6.0.1",
     "immer": "^8.0.1",
     "moment": "^2.24.0",
-    "moment-timezone": "^0.5.31",
+    "moment-timezone": "^0.5.32",
     "node-fetch": "^2.6.1"
   }
 }
